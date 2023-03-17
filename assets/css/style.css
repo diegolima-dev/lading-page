@@ -18,6 +18,17 @@
   height: auto;
 }
 
+.contact-text-content, .contact-img {
+  display: none;
+  flex-flow: column wrap;
+  justify-content: center;
+}
+
+.contact-img img {
+  max-width: 100%;
+  height: auto;
+}
+
 .top3-content {
   max-width: 64rem;
   display: flex;
@@ -265,5 +276,18 @@
 
   .grid h3::before {
     font-size: 6rem;
+  }
+
+  .contact-text-content, .contact-img {
+    display: flex;
+  }
+
+  .intro-img {
+    display: none;
+  }
+
+  .back-to-top {
+    width: 3rem;
+    height: 3rem;
   }
 }
